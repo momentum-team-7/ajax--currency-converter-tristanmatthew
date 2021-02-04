@@ -3,3 +3,24 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  border: 3px solid pink;
+}
+
+.currencyConverter {
+  border: 3px solid blue;
+  display: flex;
+  justify-content: space-between
+}
+
+.conversion {
+  display: flex;
+}
